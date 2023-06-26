@@ -1,0 +1,21 @@
+# ~/.config/starship.toml
+
+# [gcloud]
+# symbol="🇬️ "
+# format = 'on [$symbol::($project)]($style) '
+# [gcloud.project_aliases]
+# project-1 = 'p1'
+
+# [kubernetes]
+# format = 'on [⛵$context::$namespace](dimmed green) '
+# disabled = false
+# [kubernetes.context_aliases]
+# 'gke_company-(?P<var_cluster>[\w-]+)_name' = 'gke-$var_cluster'
+
+[line_break]
+disabled = false
+
+[hostname]
+ssh_only = false
+format = "[$hostname](bold orange) "
+disabled = false
